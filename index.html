@@ -3,9 +3,120 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="Discover the collaboration between Google Developer Groups (GDG) and BBD Software Company at the University of Cape Town (UCT).">
+    <title>GDG & BBD at UCT | Innovation & Excellence</title>
+    <style>
+        body {
+            font-family: Verdana, sans-serif;
+            background-color: #000080; /* Classic Navy Blue */
+            color: #ffffff;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #FFFF00; /* Classic Yellow header text */
+            font-size: 36px;
+            text-align: center;
+        }
+
+        p.subtitle {
+            font-size: 16px;
+            text-align: center;
+            color: #E0E0E0;
+        }
+
+        /* 90s style layout table */
+        table.layout {
+            width: 80%;
+            margin: 0 auto;
+            border: 4px ridge #C0C0C0;
+            background-color: #000040;
+            border-collapse: separate;
+            border-spacing: 20px;
+        }
+
+        table.layout td.card {
+            width: 50%;
+            background-color: #1A1A1A;
+            border: 2px solid #FFFFFF;
+            padding: 20px;
+            vertical-align: top;
+            /* Reactive hover animations (Allowed by user) */
+            transition: all 0.3s ease;
+        }
+
+        table.layout td.card:hover {
+            transform: scale(1.05);
+            background-color: #333333;
+        }
+
+        .gdg-theme h2 { color: #4285F4; }
+        .bbd-theme h2 { color: #ff0033; }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            border: 2px outset #C0C0C0;
+            background-color: #000080;
+            color: #FFFFFF;
+            font-weight: bold;
+            text-decoration: none;
+            /* Reactive hover animations */
+            transition: all 0.2s ease;
+        }
+
+        .btn:hover {
+            border: 2px inset #C0C0C0;
+            background-color: #0000FF;
+            color: #FFFF00;
+        }
+
+        .icon {
+            font-size: 48px;
+            text-align: center;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .text-content {
+            text-align: left;
+            margin-bottom: 20px;
+            color: #E0E0E0;
+        }
+
+        .center {
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-    <h1>Im excited to be here together with BBD & GDG</h1>
+
+    <h1>BBD & GDG at UCT</h1>
+    <p class="subtitle">Empowering student developers and fostering community innovation at the University of Cape Town.</p>
+
+    <br><br>
+
+    <table class="layout">
+        <tr>
+            <td class="card gdg-theme">
+                <span class="icon">🚀</span>
+                <h2 class="center">Google Developer Groups</h2>
+                <p class="text-content">GDG UCT is a vibrant community for students interested in Google's developer technology. We host workshops, tech talks, and hackathons to bridge the gap between theory and practical software development.</p>
+                <div class="center">
+                    <a href="#" class="btn">Join GDG UCT</a>
+                </div>
+            </td>
+            <td class="card bbd-theme">
+                <span class="icon">💻</span>
+                <h2 class="center">BBD Software</h2>
+                <p class="text-content">BBD is a premier international custom software development company. We partner with UCT to find the brightest minds, providing bursaries, mentorship, and grad programs to kickstart extraordinary tech careers.</p>
+                <div class="center">
+                    <a href="#" class="btn">Explore BBD</a>
+                </div>
+            </td>
+        </tr>
+    </table>
+
 </body>
 </html>
